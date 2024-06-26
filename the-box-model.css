@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Playfair";
+    src: url(./PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: "Playfair";
+}
+
+section {
+    padding: 90px;
+    width: 100%;
+}
+
+
+
+div {
+
+    padding: 5px;
+    width: 220px;
+    height: 100%;
+    margin: 0 auto;
+    outline: 3px solid yellow;
+    box-sizing: border-box;
+
+}
+
+span {
+
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 16px;
+    /* outline: 3px solid green; */
+}
+
+button {
+
+    padding: 18px;
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+.first-section {
+    background-color: #548CA8;
+    /* outline: 3px solid brown; */
+
+}
+
+.second-section {
+    background-color: #263346;
+    outline: 3px solid rgb(14, 126, 67);
+
+}
+
+.paragraphs {
+    display: block;
+    margin-top: 30px;
+    font-size: 21px;
+    height: fit-content;
+    /* outline: 4px solid red; */
+}
+
+.first-button {
+    background: #26334660;
+    margin-top: 30px;
+    transition: ease-in-out 250ms;
+
+}
+
+.second-button {
+    background-color: #44627090;
+}
+
+.second-button:hover{
+    background: #5e7f90;
+}
+
+.first-button:hover {
+    transform: translateY(-30px);
+    box-shadow: 15px 18px 10px rgba(12, 23, 43, .5);
+
+
+}
+
+.first-div:hover {
+    box-shadow: 10px 13px 10px rgba(12, 23, 43, .5);
+}
+
+.second-div:hover {
+    transform: translateX(10px);
+}
