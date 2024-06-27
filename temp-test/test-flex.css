@@ -128,3 +128,11 @@ main:hover {
 
 }
 
+.dyor:hover::after {
+    /* width: 30px; */
+    content: "DYOR!!";
+    background-color: rgb(158, 38, 38);
+    position: absolute;
+    font-size: 22px;
+    transform: translateY(-50px);
+}
