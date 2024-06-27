@@ -3,6 +3,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
+    transition: all ease-in-out 250ms;
 }
 
 /* header tag selected  */
@@ -87,4 +89,34 @@ footer .dyor {
 }
 
 
+.navbar-container a{
+    text-decoration: none;
+    color: #210A0E;
+}
 
+
+
+
+/* Animation for page */
+
+header:hover {
+    font-size: 19px;
+    transform: translateY(-4px);
+    box-shadow: 3px 7px 8px #210A0E;
+background-color: #cab692;;
+}
+
+
+.navbar-container .home:hover, 
+.navbar-container .about:hover,
+.navbar-container .contact:hover{
+    font-size: 23px;
+    color: #070102;
+    box-shadow: 1px 1px 1px #070102;
+}
+
+img:hover{
+    transform: translateX(18px);
+    width: 55px;
+    height: 90px;
+}
