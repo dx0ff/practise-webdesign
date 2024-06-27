@@ -1,0 +1,188 @@
+* {
+    /* border: 3px solid red;
+    outline: 1px solid yellow; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: all ease-in-out 250ms;
+}
+
+/* the page header */
+.header-body {
+    display: flex;
+    width: 100%;
+
+    background-color: #334257;
+}
+
+/* container for the page header */
+.page-header-container {
+
+    width: 80%;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+/* container for the nav-bar container */
+.menu-container {
+    display: flex;
+}
+
+/* container for the actual nav-bar */
+/* .menu-container .menulist {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* target the big-name in the nav-bar */
+.big-name-container .the-big-name {
+    font-size: 44px;
+    font-weight: 800px;
+
+    line-height: 70px;
+    padding: 20px 10px;
+}
+
+/* target the individual list-item in the nav-bar */
+.menu-container .menu-list-item {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 22px;
+
+    margin-left: 35px;
+    padding: 6px;
+}
+
+/* target the main body and the main footer */
+.main-body,
+.footer-body {
+    background-color: #476072;
+    color: #EEE;
+    line-height: 33px;
+}
+
+/* target the main-body */
+.main-body {
+
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+/* target the main body container */
+.main-body-container {
+
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* target the greetings: Hi there */
+.main-body-container .greetings {
+    padding: 18px;
+}
+
+
+
+.footer-body {
+    height: 550px;
+    background-color: #455d6e;
+    color: #15191e;
+    font-size: 22px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-body-container {
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.preample-footer {
+    font-size: 26px;
+    padding: 8px;
+    margin-bottom: 30px;
+
+}
+
+button {
+    padding: 6px;
+
+}
+
+input {
+    height: 40px;
+}
+
+/* Animation for the page starts here */
+
+
+
+/* Hover effect for the crypto-investor, a disclaimer for visitors */
+.dyor:hover::after {
+    /* width: 30px; */
+    content: "DYOR!!";
+    background-color: rgb(158, 38, 38);
+    position: absolute;
+    font-size: 22px;
+    transform: translateY(-50px);
+}
+
+.footer-body:hover {
+    background-color: #405563;
+}
+
+.preample-footer:hover {
+    font-size: 36px;
+    transform: translateY(-35px);
+    box-shadow: 14px 12px 8px #334257;
+
+}
+
+
+button:hover {
+    padding: 7px;
+    background: #5d5050;
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 8px #334257;
+}
+
+.header-body:hover {
+    transform: translateY(-4px);
+    box-shadow: 2px 12px 8px #263141;
+
+}
+
+.menu-list-item:hover {
+    font-size: 25px;
+    box-shadow: 3px 7px 8px #263141;
+}
+
+.the-big-name:hover {
+    font-size: 50px;
+    box-shadow: 7px 7px 8px #263141;
+}
+
+.main-body:hover {
+    background-color: #3d5362;
+}
+
+.main-body:hover h1 {
+    font-size: 2.5em;
+}
