@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 
-    /* /* outline: 3px solid red;
+    /* outline: 3px solid red;
     border: 2px solid yellow; */
 }
 
@@ -28,8 +28,13 @@
     font-size: 25px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
+
+    flex-direction: column;
+
+
 }
 
 .main-container {
@@ -37,6 +42,11 @@
 
 }
 
+
+.table-of-contents {
+    margin-bottom: -100px;
+
+}
 
 
 
@@ -47,7 +57,7 @@
 
 /* targets the main body when user hover it */
 .main-body:hover {
-    font-size: 27px;
+    font-size: 28px;
     background: #1a202960;
 }
 
@@ -58,7 +68,13 @@
 
 }
 
-.header-body:hover .header-container{
+.header-body:hover .header-container {
     font-size: 22px;
     box-shadow: 6px 8px 6px #1a202960;
+}
+
+.main-body:hover .table-of-contents {
+    font-size: 23px;
+    transform: translateY(-10px);
+    box-shadow: 3px 4px 8px #487289;
 }
