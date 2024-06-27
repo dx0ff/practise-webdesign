@@ -3,6 +3,8 @@
     margin: 0px;
     box-sizing: border-box;
 
+    transition: all ease-in-out 250ms;
+
     /* outline: 3px solid red;
     border: 2px solid yellow; */
 }
@@ -48,8 +50,16 @@
 
 }
 
+.menu-container a {
+    text-decoration: none;
+}
 
 
+.menu-container li {
+
+    margin-bottom: 8px;
+    padding: 2px;
+}
 
 
 /* Animation begins here:  */
@@ -77,4 +87,14 @@
     font-size: 23px;
     transform: translateY(-10px);
     box-shadow: 3px 4px 8px #487289;
+}
+
+.main-container li:hover {
+    font-size: 32px;
+}
+
+.menu-container a:hover {
+    text-decoration: none;
+    box-shadow: 3px 4px 5px #3a5c6e;
+    margin: 3px;
 }
