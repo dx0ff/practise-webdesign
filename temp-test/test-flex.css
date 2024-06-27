@@ -72,9 +72,9 @@ footer {
 
 
 /* Add border  for debugging */
-footer p {
-    border: 1px solid red;
-}
+/* footer p {
+    border: 1px solid red; 
+} */
 
 /* button in the footer is selected  */
 footer .dyor {
@@ -95,6 +95,10 @@ footer .dyor {
 }
 
 
+footer a {
+    text-decoration: none;
+    color: #070102;
+}
 
 
 /* Animation for page */
@@ -135,4 +139,21 @@ main:hover {
     position: absolute;
     font-size: 22px;
     transform: translateY(-50px);
+}
+
+
+footer:hover {
+    background-color: #9b8b6e;
+}
+
+footer:hover button{
+
+    transform: translateY(-3);
+    box-shadow: 4px 4px 8px #554d3e;;
+}
+
+footer:hover button:hover{
+
+    transform: translateY(-8);
+    box-shadow: 5px 9px 8px #554d3e;;
 }
