@@ -24,8 +24,6 @@ img {
 .navbar-container {
     padding: 3px;
     border: 1px solid red;
-    /* for debugging */
-
 
 }
 
@@ -82,3 +80,11 @@ footer .dyor {
     width: 90px;
 
 }
+
+/* second paragraph container inside main is selected  */
+.second-paragraph-container {
+    text-align: center;
+}
+
+
+
