@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-image: url("../images/charcoal-pens-copyspace.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav-list {
+    display: flex;
+
+    list-style-type: none;
+    border: 1px solid red;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    height: 100px;
+    padding: 45px;
+}
+
+
+    .preamble.first {
+        font-size: 30px;
+    }
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 650px) {
+    .preamble.first {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .preamble.first {
+        font-size: 65px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .preamble.first {
+        font-size: 35px;
+    }
+}
