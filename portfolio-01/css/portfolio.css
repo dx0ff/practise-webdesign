@@ -1,0 +1,29 @@
+body{
+    background-color: #EFF0F2;
+    height: 100vh;
+}
+main {
+    display: flex;
+
+    width: 80%;
+    height: 100vh;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+@media (min-width: 700px) {
+    main {
+        font-size: 25px;
+    }
+}
+@media (max-width: 400px) {
+    main{
+        font-size: 17px;
+    }
+}
