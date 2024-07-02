@@ -12,6 +12,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-left {
+    padding: 10px;
+
+    display: none;
 }
 
 /* select the nav-list :class */
@@ -76,6 +89,14 @@ main .intro {
     .preamble.first {
         font-size: 65px;
     }
+
+    
+
+    .top-left{
+        display: inline;
+        font-size: 45px;
+        align-self: center;
+    }
 }
 
 
@@ -88,10 +109,37 @@ main .intro {
         gap: 10px;
     }
 
+    header{
+        flex-direction: column;
+    }
+    .top-left{
+        display: inline;
+        font-size: 25px;
+        align-self: center;
+    }
+
+
+
 }
 
 @media (max-width: 650px) {
     main .intro {
         gap: 7px;
     }
+}
+
+@media (max-width: 800px) {
+
+    header{
+        justify-content: space-between;
+    }
+
+    .top-left{
+        display: inline;
+        font-size: 25px;
+        align-self: center;
+    }
+
+
+
 }
