@@ -114,8 +114,15 @@ main .intro {
     }
     .top-left{
         display: inline;
-        font-size: 25px;
         align-self: center;
+        flex-grow: 1;
+
+        flex-basis: 100px;
+    }
+
+    .top-left h1 {
+        font-size: 55px;
+
     }
 
 
