@@ -1,4 +1,104 @@
-main {
-    background-image: url("../../portfolio-01/images/high-angle-desktop-with-laptop-copy-space.jpg");
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    color: #111;
+
+    /* border: 1px solid red; */
+}
+
+
+body {
+    background-image: url("../../portfolio-01/images/charcoal-pens-copyspace.jpg");
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+.nav-list {
+    display: flex;
+
+
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    border-bottom: 1px dotted #121212;
+    height: 120px;
+
+    flex-wrap: wrap;
+}
+
+.nav-list>* {
+    padding: 8px;
+}
+
+.nav-list .portfolio {
+    margin: auto;
+}
+
+.nav-list .home,
+.nav-list .contact {
+    align-self: center;
+}
+
+
+.nav-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 8px 7px #121212;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+    height: 60vh;
+
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+main .role {
+    list-style-type: square;
+}
+
+main > * {
+    /* border: 1px solid red; */
+
+}
+
+
+@media (max-width: 700px) {
+    main .nevergiveupistheway {
+        font-size: 1.125rem;
+    }
+
+    main .role{
+        font-size: 1.0125rem;
+    }
+}
+
+@media (min-width: 701px) {
+    main .nevergiveupistheway {
+        font-size: 1.625rem;
+    }
+
+    main .role{
+        font-size: 1.2125rem;
+
+    }
 }
