@@ -5,6 +5,7 @@
 
     color: #111;
 
+    transition: all ease-in-out 250ms;
     /* border: 1px solid red; */
 }
 
@@ -19,6 +20,10 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -55,7 +60,6 @@ main {
     display: flex;
     flex-direction: column;
 
-    /* align-content: center; */
     justify-content: center;
     align-items: center;
 
@@ -67,13 +71,9 @@ main {
     flex-wrap: wrap;
 }
 
+
 main .role {
     list-style-type: square;
-}
-
-main>* {
-    /* border: 1px solid red; */
-
 }
 
 
@@ -83,6 +83,8 @@ main>* {
 /* Media queries begins here  */
 
 
+
+/* Mobile User Experience  */
 @media (max-width: 700px) {
     main .nevergiveupistheway {
         font-size: 1.125rem;
@@ -93,6 +95,8 @@ main>* {
     }
 }
 
+
+/* Desktop User Experience  */
 @media (min-width: 701px) {
     main .nevergiveupistheway {
         font-size: 1.625rem;
@@ -102,12 +106,30 @@ main>* {
         font-size: 1.2125rem;
 
     }
+
+    .nav-list .portfolio a,
+    .nav-list .contact a,
+    .nav-list .home a {
+        padding: 30px;
+    }
+
+
+    /* Animation starts here  */
+    .nav-list li>*:hover {
+        background: #232323;
+        color: #EEE;
+
+        border: 1px solid #121212;
+        border-radius: 8px;
+
+        box-shadow: 4px 2px 5px #121212;
+    }
 }
 
 
 
 
-/* Animation begins here  */
+/* General Animation begins here  */
 
 .nav-list:hover {
     transform: translateY(-5px);
