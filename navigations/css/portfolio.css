@@ -64,18 +64,30 @@ main header {
     margin-bottom: 30px;
 }
 
+.work-experience-list div{
+    margin-top: 10px;
+}
+
+.work-experience-list em {
+    display: block;
+}
+
 @media (max-width: 700px) {
     section {
     
         width: 85%;
     }
 
-    main {
-        /* height: 2205px; */
-    }
+    /* main {
+        /* height: 2205px; 
+    } */
 
     .card-container {
         padding: 5px;
+    }
+
+    .card-container:hover header {
+        font-size: 19.125px;
     }
 }
 
@@ -94,6 +106,10 @@ main header {
     main header {
         font-size: 25px;
     }
+
+    .card-container:hover header {
+        font-size: 33px;
+    }
 }
 
 p {
@@ -108,3 +124,4 @@ p {
 .card-container:hover {
     box-shadow: 5px 8px 12px #122;
 }
+
