@@ -38,8 +38,6 @@ section {
 .card-body li {
     list-style-type: square;
     margin-bottom: 10px;
-
-    border: 3px solid yellow;
 }
 
 
@@ -60,9 +58,20 @@ h5 {
 
 /* select all the header tags in the main tag :tag */
 main header {
-    border: 2px solid red;
+    border: 2px dotted rgb(41, 88, 88, 0.1);
     margin-bottom: 30px;
 }
+
+.work-experience-list div{
+    margin-top: 10px;
+}
+
+.work-experience-list em {
+    display: block;
+}
+
+/*  */
+
 
 @media (max-width: 700px) {
     section {
@@ -70,41 +79,47 @@ main header {
         width: 85%;
     }
 
-    main {
-        /* height: 2205px; */
-    }
-
     .card-container {
         padding: 5px;
     }
+
+    .card-container:hover header {
+        font-size: 19.125px;
+    }
 }
 
+
 @media (min-width: 701px) {
-    /* main {
-        /* height: 1800px; 
-    } */
-    p {
-        border: 3px solid brown;
-        
-    }
-    main h4 {
-        border: 2px solid indianred;
-    }
+
 
     main header {
         font-size: 25px;
     }
+
+
+
+    .card-container:hover header {
+        font-size: 33px;
+    }
+
+    .card-container:hover {
+        padding: 30px;
+    }
 }
 
-p {
-    border: 3px solid brown;
-}
 
-* { 
+/* * { 
     border: none !important;
+} */
+
+main {
+    height: 100%;
+    gap: 70px;
+    margin-top: 70px;
 }
 
 
 .card-container:hover {
     box-shadow: 5px 8px 12px #122;
 }
+

@@ -14,7 +14,7 @@ body {
     background-image: url("../../portfolio-01/images/charcoal-pens-copyspace.jpg");
     background-size: cover;
     height: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -96,11 +96,14 @@ main .role {
 
     .nav-list {
         justify-content: space-around;
+        height: 80px;
     }
     .nav-list .portfolio {
         margin: 0%;
         align-self: center;
     }
+
+
 }
 
 
