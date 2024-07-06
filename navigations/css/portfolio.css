@@ -104,3 +104,7 @@ p {
     border: none !important;
 }
 
+
+.card-container:hover {
+    box-shadow: 5px 8px 12px #122;
+}
