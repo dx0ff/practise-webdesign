@@ -1,0 +1,38 @@
+@media (max-width: 700px) {
+    .card-container{
+        width: 80%;
+        gap: 70px;
+    }
+
+}
+
+@media (min-width: 701px) {
+    
+    .card-container {
+        justify-items: center;
+    
+        gap: 300px;
+        width: 60%;
+    }
+}
+
+.card-container {
+    align-items: normal;
+    border: 1px solid red;
+}
+
+.avatar-img{
+    width: 120px;
+    height: 120px;
+
+    border-radius: 100%;
+}
+.avatar,
+.contact-info {
+
+margin: auto;
+
+}
+
+
+
